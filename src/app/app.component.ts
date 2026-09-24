@@ -42,15 +42,15 @@ export class AppComponent {
       puesto: 'Tecnico de Sistemas Informáticos y Redes',
       periodo: '3 Meses',
       descripcion:
-        'Desarrollé aplicaciones web utilizando Angular y React, implementando interfaces de usuario interactivas y optimizando el rendimiento.',
+        'Trabajé en la instalación, configuración y mantenimiento de sistemas informáticos y redes, asegurando un funcionamiento óptimo de los equipos y la infraestructura tecnológica.',
     },
     {
-      nombre: 'Empresa 2',
-      puesto: 'Desarrollador Backend',
+      nombre: 'LD Quantum',
+      puesto: 'Desarrollador para Aplicaciones Multiplataforma',
       periodo: '3 Meses',
       descripcion:
-        'Trabajé en el desarrollo de APIs RESTful utilizando Node.js y Express, integrando bases de datos como MongoDB y MySQL.',
-    },
+        'Trabajé en el desarrollo de aplicaciones multiplataforma utilizando lenguajes como TypeScript y JavaScript, creando experiencias de usuario consistentes en diferentes dispositivos.',
+    }
   ];
 
 }

@@ -31,12 +31,10 @@
     <h2>EXPERIENCIA</h2>
     <div class="experiencia">
       <h3>{{ empresas[0].nombre }}</h3>
-      <p>{{ empresas[0].puesto }}</p>
-      <p>{{ empresas[0].periodo }}</p>
+      <p>{{ empresas[0].puesto }} <br><br> {{ empresas[0].descripcion }} <br><br> {{ empresas[0].periodo }}</p>
 
       <h3>{{ empresas[1].nombre }}</h3>
-      <p>{{ empresas[1].puesto }}</p>
-      <p>{{ empresas[1].periodo }}</p>
+      <p>{{ empresas[1].puesto }} <br><br> {{ empresas[1].descripcion }} <br><br> {{ empresas[1].periodo }}</p>
     </div>
 
     <h2>FORMACIÓN</h2>
@@ -50,7 +48,7 @@
 
     <h2>TECNOLOGÍAS</h2>
     <p>{{ tenologias[0] }} · {{ tenologias[1] }} · {{ tenologias[2] }} · {{
-      tenologias[3] }} ·{{ tenologias[4] }} ·
+      tenologias[3] }} · {{ tenologias[4] }} ·
       {{ tenologias[5] }} · {{ tenologias[6] }} · {{ tenologias[7] }} · {{
       tenologias[8] }} · {{ tenologias[9] }}</p>
   </main>
@@ -60,3 +58,4 @@
   <p>&copy; {{this.fecha | date: 'yyyy'}} Currículum desarrollado con Angular de
     {{ name }}</p>
 </footer>
+
