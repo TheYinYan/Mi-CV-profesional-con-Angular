@@ -1,12 +1,56 @@
+import { DatePipe } from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, DatePipe],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
 })
 export class AppComponent {
-  title = 'cv';
+  title = 'Curriculum Vitae';
+
+  name = 'Samuel Ruiz Martín';
+  profession = 'Desarrollador de Aplicaciones Multiplataforma';
+  about =
+  'Soy un desarrollador de aplicaciones multiplataforma con experiencia en tecnologías como Angular, React y Node.js. Me gusta resolver problemas y crear soluciones innovadoras.';
+
+  telephone = '+34 693 48 75 96';
+  github = 'https://github.com/TheYinYan';
+  correo = 'samuelruizmartin2412@gmail.com';
+  location = 'Malaga, España';
+
+  fecha = new Date();
+
+  tenologias = [
+    'Angular',
+    'React',
+    'Node.js',
+    'Express',
+    'MongoDB',
+    'MySQL',
+    'HTML5',
+    'CSS3',
+    'JavaScript',
+    'TypeScript',
+  ];
+
+  empresas = [
+    {
+      nombre: 'Navicom Informática',
+      puesto: 'Tecnico de Sistemas Informáticos y Redes',
+      periodo: '3 Meses',
+      descripcion:
+        'Desarrollé aplicaciones web utilizando Angular y React, implementando interfaces de usuario interactivas y optimizando el rendimiento.',
+    },
+    {
+      nombre: 'Empresa 2',
+      puesto: 'Desarrollador Backend',
+      periodo: '3 Meses',
+      descripcion:
+        'Trabajé en el desarrollo de APIs RESTful utilizando Node.js y Express, integrando bases de datos como MongoDB y MySQL.',
+    },
+  ];
+
 }
