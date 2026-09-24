@@ -1,10 +1,10 @@
-import { DatePipe } from '@angular/common';
+import { DatePipe, NgOptimizedImage } from '@angular/common';
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, DatePipe],
+  imports: [RouterOutlet, DatePipe, NgOptimizedImage],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })

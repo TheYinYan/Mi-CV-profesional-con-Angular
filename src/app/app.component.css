@@ -1,7 +1,10 @@
 header {
   padding-top: 1rem;
-  background-color: beige;
+  background: linear-gradient(135deg, #2c3e50, #34495e);
+  color: white;
   text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+
 }
 
 .main {
@@ -15,21 +18,26 @@ aside {
   flex-direction: column;
   padding: 2rem;
   width: 20%;
-  background-color: beige;
+  background: #ecf0f1;
 }
 
-.contacto{
-  height: 40%;
+.contacto {
+  height: 30%;
 }
 
-.idiomas{
+.contact-info{
+  padding-top: 1rem;
+  padding-left: 0.5rem;
+}
+
+.idiomas {
   flex: 1;
 }
 
 main {
   flex: 1;
   padding: 1rem;
-  background-color: beige;
+  background: #ffffff;
 }
 
 footer {
@@ -37,25 +45,43 @@ footer {
   justify-content: center;
   align-items: center;
   height: 5vh;
-  background-color: beige;
+  background: #2c3e50;
+  color: #ecf0f1;
 }
 
-.main p{
+.main p {
   padding: 1rem;
   width: 62%;
 }
 
-h2{
+h2 {
   padding: 0.5rem;
 }
 
-h3{
+h3 {
   padding-top: 0.5rem;
   padding-left: 1rem;
 }
 
-ul{
+ul {
   padding-top: 0.5rem;
   padding-left: 1.5rem;
 }
 
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.img {
+  padding: 1rem;
+}
+
+.icono {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
