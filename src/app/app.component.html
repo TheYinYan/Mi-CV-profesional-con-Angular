@@ -58,17 +58,14 @@
     <h2>FORMACIÓN</h2>
     <div>
       <h3>C.I.F.P Alan Turing</h3>
-      <p>Grado Superior en Desarrollo de Aplicaciones Multiplataforma</p>
+      <p>Grado Superior en Desarrollo de Aplicaciones Multiplataforma (D.A.M.)</p>
 
       <h3>C.I.F.P Alan Turing</h3>
-      <p>Grado Medio en Sistemas Microinformáticos y Redes</p>
+      <p>Grado Medio en Sistemas Microinformáticos y Redes (S.M.R.)</p>
     </div>
 
     <h2>TECNOLOGÍAS</h2>
-    <p>{{ tenologias[0] }} · {{ tenologias[1] }} · {{ tenologias[2] }} · {{
-      tenologias[3] }} · {{ tenologias[4] }} ·
-      {{ tenologias[5] }} · {{ tenologias[6] }} · {{ tenologias[7] }} · {{
-      tenologias[8] }} · {{ tenologias[9] }}</p>
+    <span class="tec" *ngFor="let tenologia of tenologias">{{tenologia}}</span>
   </main>
 </div>
 
