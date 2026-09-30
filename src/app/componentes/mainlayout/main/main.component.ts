@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-import {NgFor, NgOptimizedImage } from '@angular/common';
+import {NgFor } from '@angular/common';
 @Component({
   selector: 'app-main',
-  imports: [NgFor, NgOptimizedImage],
+  imports: [NgFor],
   templateUrl: './main.component.html',
   styleUrl: './main.component.css',
 })
