@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-import {NgFor } from '@angular/common';
+import {NgFor, NgOptimizedImage } from '@angular/common';
 @Component({
   selector: 'app-main',
-  imports: [NgFor],
+  imports: [NgFor, NgOptimizedImage],
   templateUrl: './main.component.html',
   styleUrl: './main.component.css',
 })
@@ -36,6 +36,7 @@ export class MainComponent {
 
   empresas = [
     {
+      image: '/Img/Navicom.png',
       nombre: 'Navicom Informática',
       puesto: 'Tecnico de Sistemas Informáticos y Redes',
       periodo: '3 Meses',
@@ -43,6 +44,7 @@ export class MainComponent {
         'Trabajé en la instalación, configuración y mantenimiento de sistemas informáticos y redes, asegurando un funcionamiento óptimo de los equipos y la infraestructura tecnológica.',
     },
     {
+      image: '/Img/ld_quantum.png',
       nombre: 'LD Quantum',
       puesto: 'Desarrollador para Aplicaciones Multiplataforma',
       periodo: '3 Meses',

@@ -3,22 +3,3 @@
   flex-direction: column;
 
 }
-
-.contacto {
-  height: 30%;
-}
-
-.contact-info {
-  padding-top: 1rem;
-  padding-left: 0.5rem;
-}
-
-.idiomas {
-  flex: 1;
-}
-
-main {
-  flex: 1;
-  padding: 1rem;
-  background: #ffffff;
-}
