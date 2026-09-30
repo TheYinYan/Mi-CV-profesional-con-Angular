@@ -17,8 +17,41 @@ app-root {
   min-height: 100vh;
 }
 
-app-root {
-  display: flex;
-  flex-direction: column;
+h2 {
+  padding: 0.5rem;
+}
 
+h3 {
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+}
+
+ul {
+  padding-top: 0.5rem;
+  padding-left: 1.5rem;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.img {
+  padding: 1rem;
+  padding-top: 2rem;
+  transform: rotate(20deg);
+}
+
+.icono {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+
+p {
+  padding: 1rem;
+  width: 62%;
 }

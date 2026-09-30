@@ -1,0 +1,38 @@
+  <aside>
+    <div class="img">
+      <img ngSrc="/Img/Yo.png" width="120" height="120" priority class="foto-perfil" alt="Foto de {{ name }}" />
+    </div>
+    <div class="contacto">
+      <h2>CONTACTO</h2>
+
+      <div class="contact-info">
+        <div class="dato-contacto">
+          <img ngSrc="/Img/icons8-ubicacion-30.svg" width="18" height="18" class="icono" alt="Ubicación" />
+          <span>{{ location }}</span>
+        </div>
+        <br>
+        <div class="dato-contacto">
+          <img ngSrc="/Img/icons8-telefono-30.svg" width="18" height="18" class="icono" alt="Teléfono" />
+          <span>{{ telephone }}</span>
+        </div>
+        <br>
+        <div class="dato-contacto">
+          <img ngSrc="/Img/icons8-github-30.svg" width="18" height="18" class="icono" alt="GitHub" />
+          <a [href]="github" target="_blank" rel="noopener">GitHub</a>
+        </div>
+        <br>
+        <div class="dato-contacto">
+          <img ngSrc="/Img/icons8-email-30.svg" width="18" height="18" class="icono" alt="Email" />
+          <a [href]="'mailto:' + correo">{{ correo }}</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="idiomas">
+      <h2>IDIOMAS</h2>
+      <ul>
+        <li>Español - Nativo</li> <br>
+        <li>English - Intermedio</li>
+      </ul>
+    </div>
+  </aside>

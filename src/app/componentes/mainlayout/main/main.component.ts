@@ -1,23 +1,18 @@
-import { DatePipe, NgOptimizedImage, NgFor } from '@angular/common';
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { HeaderComponent } from './componentes/header/header.component';
-import { MainlayoutComponent } from './componentes/mainlayout/mainlayout.component';
-import { FooterComponent } from './componentes/footer/footer.component';
-
+import {NgFor } from '@angular/common';
 @Component({
-  selector: 'app-root',
-  imports: [RouterOutlet, DatePipe, NgOptimizedImage, NgFor, HeaderComponent, MainlayoutComponent, FooterComponent],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
+  selector: 'app-main',
+  imports: [NgFor],
+  templateUrl: './main.component.html',
+  styleUrl: './main.component.css',
 })
-export class AppComponent {
+export class MainComponent {
   title = 'Curriculum Vitae';
 
   name = 'Samuel Ruiz Martín';
   profession = 'Desarrollador de Aplicaciones Multiplataforma';
   about =
-  'Soy un desarrollador de aplicaciones multiplataforma con experiencia en tecnologías como Angular, React y Node.js. Me gusta resolver problemas y crear soluciones innovadoras.';
+    'Soy un desarrollador de aplicaciones multiplataforma con experiencia en tecnologías como Angular, React y Node.js. Me gusta resolver problemas y crear soluciones innovadoras.';
 
   telephone = '+34 693 48 75 96';
   github = 'https://github.com/TheYinYan';
@@ -53,7 +48,6 @@ export class AppComponent {
       periodo: '3 Meses',
       descripcion:
         'Trabajé en el desarrollo de aplicaciones multiplataforma utilizando lenguajes como TypeScript y JavaScript, creando experiencias de usuario consistentes en diferentes dispositivos.',
-    }
+    },
   ];
-
 }
