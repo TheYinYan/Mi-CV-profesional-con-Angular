@@ -47,6 +47,8 @@ footer {
   height: 5vh;
   background: #2c3e50;
   color: #ecf0f1;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
 }
 
 .main p {
