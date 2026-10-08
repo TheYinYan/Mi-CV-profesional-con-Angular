@@ -6,6 +6,18 @@ header {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 
 }
+
 h2 {
   padding: 0.5rem;
+}
+
+nav {
+  background-color: #34495e;
+  padding-bottom: 0.5rem;
+}
+
+nav>ul>li {
+  display: inline;
+  padding-left: 1rem;
+  color:floralwhite;
 }

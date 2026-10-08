@@ -1,3 +1,11 @@
-<app-header></app-header>
-<app-mainlayout></app-mainlayout>
+<app-header [nombre]="name"
+  (activarRes)="onActivarRes($event)"
+  (activarExp)="onActivarExp($event)"
+  (activarForm)="onActivarForm($event)">
+</app-header>
+<app-mainlayout
+  [activarExp]="activarExp"
+  [activarForm]="activarForm"
+  [activarRes]="activarRes">
+</app-mainlayout>
 <app-footer></app-footer>

@@ -1,4 +1,11 @@
 <header>
-  <h1>{{ name }}</h1>
+  <h1>{{ nombre() }}</h1>
   <h2>{{ profession }}</h2>
+  <nav>
+    <ul>
+      <li (click)="onClickResumen()">RESUMEN</li>
+      <li (click)="onClickExperiencia()">EXPERIENCIA</li>
+      <li (click)="onClickFormacion()">FORMACIÓN</li>
+    </ul>
+  </nav>
 </header>
